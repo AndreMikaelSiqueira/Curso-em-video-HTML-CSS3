@@ -6,9 +6,25 @@
 }
 
 body {
-    background:linear-gradient(#FFCB9A #D8B08C) 
+    background: #D2E8E3;
 }
-
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.158) ;
+}
+h1 {
+    color: #0F6466;
+    text-align: center;
+}
+h2 {
+    
+    color: #E29A12;
+}
 p {
+    color: #2C3532;
     text-align: justify;
 }
