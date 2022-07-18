@@ -1,7 +1,7 @@
 
 /* 
-    em HTML é id = em CSS é #
-    em HTML é class = em CSS é .
+    em HTML é id = em CSS é #   (só pode um elemento)
+    em HTML é class = em CSS é . (pode varios elementos)
 
 */
 
@@ -27,4 +27,13 @@ h2 {
 }
 p {
     text-align: justify
+}
+.basico {
+    color:rgb(55, 146, 55);
+}
+.intermediario {
+    color:#80793c
+}
+.avancado {
+    color:rgb(209, 87, 87);
 }
