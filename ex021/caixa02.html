@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(41, 92, 92);
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(172, 169, 169);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            color:red
+        }
+        main {
+            background-color: white;
+            text-align:justify;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(172, 169, 169);
+        }
+        footer {
+            background-color: black;
+            color:whitesmoke;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a  href="#">Link</a>
+            <a  href="#">Link</a>
+            <a  href="#">Link</a>
+            <a  href="#">Link</a>
+            <a  href="#">Link</a>
+        </nav>
+    </header>    
+    <main>
+        <section id="assuntos">
+                <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                    <h2>Noticia Sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus, enim, provident molestias reiciendis exercitationem delectus aperiam vero ratione beatae ipsam voluptate. Rem architecto ullam a, praesentium laudantium sint itaque.</p>
+                    <aside>
+                        <p>Artigo Escrito por joao caganeira da silva picao</p>
+                    </aside>
+                </article>
+                <article>
+
+                </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
