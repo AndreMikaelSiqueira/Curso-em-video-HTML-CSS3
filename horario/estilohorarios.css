@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: ;
+}
+
+table {
+    height: 500px;
+    border-collapse: collapse;
+    border-radius:;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+
+.semana {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.escola {
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+.programaçao {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.tempolivre {
+    background-color: yellow;
+    border: 1px solid black;
+}
