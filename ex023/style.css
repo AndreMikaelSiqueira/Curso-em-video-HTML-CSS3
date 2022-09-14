@@ -11,10 +11,27 @@ td, th {
 }
 
 th {
-    background-color: gray;
+    background-color: rgb(85, 84, 84);
     color: white;
 }
 
 .direita {
     text-align: right;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(87, 86, 86);
+    border: 1 solid black;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.numero {
+    background-color: rgb(87, 86, 86);
+    text-align: right;
+    color: white;
 }
